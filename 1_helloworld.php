@@ -22,5 +22,17 @@
             echo "\n It's correct, you win ";
         }
     }
-    print ($result1.' coin');
+    print ($result1." coin \n");
+
+    $second = readline("Type the name of the function to count all elements in an array: ");
+
+    if($second==='count'){
+        $result1=$result1+1;
+            echo "\n It's correct, you win ";
+    }
+    else{
+        $result1= $result1-1;
+        echo "\n Wrong answer, you fail ";
+    }
+    print ($result1." coin \n");
 ?>
